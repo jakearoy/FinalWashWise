@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "38861731901",
+    "project_id": "washwise-98c85",
+    "storage_bucket": "washwise-98c85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38861731901:android:9855c75cef3a3e9eab5254",
+        "android_client_info": {
+          "package_name": "com.example.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38861731901-5ef6sfv3pgshmuvag8ji3lcnlmam4385.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9RqF4vhg5aM-QsXUIef_HdSwQ5EQmzFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38861731901-5ef6sfv3pgshmuvag8ji3lcnlmam4385.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

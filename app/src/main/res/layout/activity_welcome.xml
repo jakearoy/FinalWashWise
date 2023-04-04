@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="LoginSignup.Welcome"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_height="200dp"
+            android:src="@drawable/circle"/>
+
+        <TextView
+            android:id="@+id/slogan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simplify your washing"
+            android:textSize="50sp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/slogan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wash smarter, Wash Wise!"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="LOGIN"
+                android:onClick="callLoginScreen"
+                app:backgroundTint="#4C956C" />
+
+            <Button
+                android:id="@+id/signup_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="SIGN UP"
+                android:onClick="callSignUpScreen"
+                app:backgroundTint="#4C956C" />
+
+        </LinearLayout>
+
+        <Button
+            android:background="#00000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOW WE WORK"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_marginTop="40dp"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
