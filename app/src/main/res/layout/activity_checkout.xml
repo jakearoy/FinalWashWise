@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Payment.Checkout">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Home"
+        android:onClick="finishPayment"
+        android:textSize="16sp"
+        android:textColor="@color/onyx"
+        android:fontFamily="@font/aristotelica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:textColor="@color/onyx"
+        android:id="@+id/checkout_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Checkout"
+        android:fontFamily="@font/aristotelica_demibold"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textColor="@color/onyx"
+        android:id="@+id/checkout_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_ligh"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="75dp"
+        android:text="akjfnkjfn"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkout_title" />
+
+    <View
+        android:id="@+id/underline1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/underline"
+        app:layout_constraintTop_toBottomOf="@+id/checkout_service" />
+
+    <TextView
+        android:textColor="@color/onyx"
+        android:id="@+id/service_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/exo_ligh"
+        android:layout_marginTop="40dp"
+        android:text="Service Price"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/underline1" />
+
+    <TextView
+        android:textColor="@color/onyx"
+        android:id="@+id/collection_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_ligh"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Collection Cost: £1.99"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/service_price" />
+
+    <TextView
+        android:textColor="@color/onyx"
+        android:id="@+id/delivery_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/exo_ligh"
+        android:layout_marginTop="30dp"
+        android:text="Delivery Cost: £1.99"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/collection_cost" />
+
+    <TextView
+        android:textColor="@color/onyx"
+        android:id="@+id/total_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/exo"
+        android:text="Total Cost"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/delivery_cost" />
+
+
+    <View
+        android:id="@+id/underline2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/underline"
+        app:layout_constraintTop_toBottomOf="@+id/total_cost" />
+
+
+    <Button
+        android:id="@+id/pay_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Pay"
+        android:backgroundTint="#4C956C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/underline2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

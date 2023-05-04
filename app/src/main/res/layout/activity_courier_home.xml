@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourierHome">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Courier Home"
+        android:textColor="@color/onyx"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:fontFamily="@font/aristotelica_demibold"/>
+
+
+    <TextView
+        android:id="@+id/current_orders_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="150dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:textColor="@color/onyx"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aristotelica"
+        android:text="Current orders"
+        android:textSize="20sp"
+         />
+
+        <TextView
+            android:id="@+id/current_order_addy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo"
+            android:textColor="@color/onyx"
+            android:textAlignment="center"
+            app:layout_constraintTop_toBottomOf="@id/current_orders_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:text="You have no orders currently" />
+
+        <TextView
+            android:id="@+id/current_order_delivery"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/exo"
+            android:textColor="@color/onyx"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/current_order_addy"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/current_order_collection"
+            android:fontFamily="@font/exo"
+            android:textColor="@color/onyx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/current_order_delivery"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:text=" " />
+
+
+        <Button
+            android:id="@+id/complete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mark as complete"
+            android:backgroundTint="#4C956C"
+            android:onClick="completeOrder"
+            app:layout_constraintTop_toBottomOf="@id/current_order_collection"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

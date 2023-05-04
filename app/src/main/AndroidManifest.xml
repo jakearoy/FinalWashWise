@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.afinal">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyCW2jyHkjPiRtBpuJN-ZLNBsuJGocUuPYE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -8,7 +15,53 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Final">
+        android:theme="@style/Theme.Final"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="Messaging.Messenger"
+            android:exported="false" />
+        <activity
+            android:name=".FAQ"
+            android:exported="false" />
+        <activity
+            android:name=".contactScreen"
+            android:exported="false" />
+        <activity
+            android:name=".pastOrders"
+            android:exported="false" />
+        <activity
+            android:name=".CourierHome"
+            android:exported="false" />
+        <activity
+            android:name="LoginSignup.CourierLogin"
+            android:exported="false" />
+        <activity
+            android:name=".CourierSignUp2"
+            android:exported="false" />
+        <activity
+            android:name=".CourierSignUp"
+            android:exported="false" />
+        <activity
+            android:name="Payment.Checkout"
+            android:exported="false" />
+        <activity
+            android:name="Payment.PaymentScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="false" />
+        <activity
+            android:name="LoginSignup.AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".deliveryScreen"
+            android:exported="false" />
+        <activity
+            android:name=".deliveryScreen2"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="true" />
         <activity
             android:name="LoginSignup.AccountCreated"
             android:exported="false" />
@@ -26,12 +79,6 @@
             android:exported="false" />
         <activity
             android:name="LoginSignup.VerifyOTP"
-            android:exported="false" />
-        <activity
-            android:name="LoginSignup.SignUp3"
-            android:exported="false" />
-        <activity
-            android:name="LoginSignup.SignUp2"
             android:exported="false" />
         <activity
             android:name="LoginSignup.SignUp"

@@ -17,7 +17,7 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="40dp"
             android:layout_height="200dp"
             android:src="@drawable/circle"/>
 
@@ -26,7 +26,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Simplify your washing"
+            android:fontFamily="@font/aristotelica_demibold"
             android:textSize="50sp"
+            android:textColor="@color/onyx"
             android:layout_marginTop="80dp"
             android:layout_gravity="center"
             android:textAlignment="center"/>
@@ -35,6 +37,8 @@
             android:id="@+id/slogan2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/aristotelica"
+            android:textSize="16sp"
             android:text="Wash smarter, Wash Wise!"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
@@ -43,12 +47,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp">
+            android:layout_marginTop="70dp">
 
             <Button
-                android:id="@+id/login_btn"
+                android:id="@+id/welcome_login_btn"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/aristotelica_demibold"
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:text="LOGIN"
@@ -57,6 +62,7 @@
 
             <Button
                 android:id="@+id/signup_btn"
+                android:fontFamily="@font/aristotelica_demibold"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
@@ -66,16 +72,6 @@
                 app:backgroundTint="#4C956C" />
 
         </LinearLayout>
-
-        <Button
-            android:background="#00000000"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="HOW WE WORK"
-            android:textColor="@color/black"
-            android:layout_weight="1"
-            android:layout_marginTop="40dp"/>
-
 
 
 

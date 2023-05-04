@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHome">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:id="@+id/admin_title"
+        android:textColor="@color/onyx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Page"
+        android:fontFamily="@font/aristotelica_demibold"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/add_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/onyx"
+        android:fontFamily="@font/exo"
+        android:text="Add new laundromat:"
+        app:layout_constraintTop_toBottomOf="@id/admin_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        android:layout_marginTop="50dp" />
+
+
+
+    <fragment
+        app:layout_constraintTop_toBottomOf="@id/add_text"
+        android:layout_marginTop="15dp"
+        android:id="@+id/laundry_autocomplete_fragment"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/laundryName"
+        app:layout_constraintTop_toBottomOf="@id/laundry_autocomplete_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Name"
+        app:boxStrokeWidthFocused="2dp"
+        android:padding="5dp">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"/>
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/laundryNumber"
+            app:layout_constraintTop_toBottomOf="@id/laundryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Phone number"
+            app:boxStrokeWidthFocused="2dp"
+            android:padding="5dp">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="phone"/>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/iron_price"
+        app:layout_constraintTop_toBottomOf="@id/laundryNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Iron Price"
+        app:boxStrokeWidthFocused="2dp"
+        android:padding="5dp">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="numberDecimal"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/wash_price"
+        app:layout_constraintTop_toBottomOf="@id/iron_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Wash Price"
+        app:boxStrokeWidthFocused="2dp"
+        android:padding="5dp">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="numberDecimal"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dryclean_price"
+        app:layout_constraintTop_toBottomOf="@id/wash_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Dry-clean Price"
+        app:boxStrokeWidthFocused="2dp"
+        android:padding="5dp">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="numberDecimal"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/wash_iron_price"
+        app:layout_constraintTop_toBottomOf="@id/dryclean_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Wash + Iron Price"
+        app:boxStrokeWidthFocused="2dp"
+        android:padding="5dp">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:inputType="numberDecimal"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/add_laundromat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addLaundromat"
+            android:text="Add Laundromat"
+            app:layout_constraintTop_toBottomOf="@id/wash_iron_price"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#4C956C"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
