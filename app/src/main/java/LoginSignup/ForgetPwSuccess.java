@@ -22,4 +22,7 @@ public class ForgetPwSuccess extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void callHome(View view) {
+    }
 }

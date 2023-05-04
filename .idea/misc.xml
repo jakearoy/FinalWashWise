@@ -1,24 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/drawable/round_back_light_10.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/drawable/rounded_corner.xml" value="0.136" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/drawable/rounded_corner2.xml" value="0.33984375" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/drawable/rounded_corner3.xml" value="0.2703125" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/drawable/search_icon.xml" value="0.1" />
         <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_account_created.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_admin_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_admin_login.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_checkout.xml" value="0.264" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_contact_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_courier_home.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_courier_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_courier_sign_up.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_courier_sign_up2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_delivery_screen.xml" value="0.264" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_delivery_screen2.xml" value="0.2" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_faq.xml" value="0.4" />
         <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_forget_password.xml" value="0.196875" />
         <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_forget_pw_success.xml" value="0.196875" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_home_screen.xml" value="0.2" />
         <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_make_selection.xml" value="0.196875" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_messenger.xml" value="0.2" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_past_orders.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_payment_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_set_new_password.xml" value="0.2" />
-        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
         <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_sign_up2.xml" value="0.196875" />
         <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_sign_up3.xml" value="0.196875" />
         <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_verify_otp.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/activity_welcome.xml" value="0.2" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/custom_date_picker.xml" value="0.1" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/fragment_dryclean.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/fragment_home.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/fragment_iron.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/fragment_more.xml" value="0.264" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/fragment_services.xml" value="0.4" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/fragment_wash.xml" value="0.264" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/fragment_wash_iron.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/messages_adapter_layout.xml" value="0.1" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/layout/more_list_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jake0/AndroidStudioProjects/Final/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

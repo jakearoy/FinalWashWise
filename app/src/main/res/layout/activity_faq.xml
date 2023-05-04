@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FAQ">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/faq_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAQ"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
+            android:fontFamily="@font/aristotelica_demibold"
+            android:textColor="@color/onyx" />
+
+        <ImageView
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="15dp"
+            android:id="@+id/back_arrow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/left_arrow"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/faq_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+
+            android:fontFamily="@font/exo"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/faq1"
+            app:layout_constraintTop_toBottomOf="@id/faq_title"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:id="@+id/faq_1_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo_ligh"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="10dp"
+
+            android:text="@string/faq1_answer"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_1"
+            android:layout_marginTop="20dp" />
+
+
+        <TextView
+            android:id="@+id/faq_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo"
+            android:layout_marginStart="10dp"
+
+            android:text="@string/faq2"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_1_answer"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/faq_2_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo_ligh"
+            android:text="@string/faq2_answer"
+            android:layout_marginEnd="10dp"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_2"
+            android:layout_marginTop="20dp" />
+
+
+        <TextView
+            android:id="@+id/faq_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/faq3"
+            android:fontFamily="@font/exo"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_2_answer"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/faq_3_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo_ligh"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+
+            android:text="@string/faq3_answer"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_3"
+            android:layout_marginTop="20dp" />
+
+
+        <TextView
+            android:id="@+id/faq_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo"
+            android:text="@string/faq4"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_3_answer"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/faq_4_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo_ligh"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="10dp"
+
+
+            android:text="@string/faq4_answer"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_4"
+            android:layout_marginTop="20dp" />
+
+
+        <TextView
+            android:id="@+id/faq_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo"
+            android:text="@string/faq5"
+            android:layout_marginStart="10dp"
+
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_4_answer"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/faq_5_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo_ligh"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="10dp"
+
+            android:text="@string/faq5_answer"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_5"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/faq_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo"
+            android:text="@string/faq6"
+            android:layout_marginStart="10dp"
+
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_5_answer"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/faq_6_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo_ligh"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="10dp"
+
+
+            android:text="@string/faq6_answer"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_6"
+            android:layout_marginTop="20dp" />
+
+
+        <TextView
+            android:id="@+id/faq_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo"
+            android:text="@string/faq7"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_6_answer"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/faq_7_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/exo_ligh"
+            android:text="@string/faq7_answer"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="20dp"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/faq_7"
+            android:layout_marginTop="20dp" />
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

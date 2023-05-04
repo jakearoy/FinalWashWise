@@ -34,12 +34,13 @@
             android:layout_marginTop="80dp">
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:hint="Username"
+                android:hint="Email"
                 app:boxStrokeWidthFocused="2dp"
-                app:startIconDrawable="@drawable/account2"
+                app:startIconDrawable="@drawable/email_icon"
                 android:padding="10dp">
 
 
@@ -53,6 +54,7 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -72,26 +74,22 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <LinearLayout
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="10dp">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-                    android:text="Remember Me"
-                    />
+
 
                 <Button
                     android:id="@+id/forgot_Pw_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/aristotelica_demibold"
                     android:text="Forgot Password"
                     android:textColor="@color/black"
-                    android:background="#00000000"
-                    android:layout_marginLeft="44dp"/>
+                    android:background="#00000000" />
 
 
             </LinearLayout>
@@ -99,15 +97,50 @@
 
 
             <Button
+                android:id="@+id/login_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="CallHomeScreen"
                 android:text="LOGIN"
+                android:fontFamily="@font/aristotelica_demibold"
                 app:backgroundTint="#4C956C"
                 android:padding="10dp"
                 android:layout_marginTop="30dp"
                 />
 
 
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="LOGIN AS ADMIN"
+            android:layout_weight="1"
+            android:onClick="openAdminLogin"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="LOGIN AS COURIER"
+            android:onClick="openCourierLogin"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
 
         </LinearLayout>
 
